@@ -1,0 +1,40 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="projee.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table style="margin-top:30px" width="100%" align="center">
+                <tr bgcolor="black">
+                    <td align="center">
+                        <asp:HyperLink ID="HyperLink1" runat="server" Font-Size="Large" ForeColor="LightGray" NavigateUrl="~/Save.aspx">Kayıt Gönder</asp:HyperLink>
+                    </td>
+                       
+                    <td align="center">
+                        <asp:HyperLink ID="HyperLink2" runat="server" Font-Size="Large" ForeColor="LightGray" NavigateUrl="~/Delete.aspx">Kayıt Sil</asp:HyperLink>
+                    </td>
+
+                    <td align="center">
+                        <asp:HyperLink ID="HyperLink3" runat="server" Font-Size="Large" ForeColor="LightGray" NavigateUrl="~/Update.aspx">Kayıt Güncelle</asp:HyperLink>
+                    </td>
+
+                    <td align="center">
+                        <asp:HyperLink ID="HyperLink4" runat="server" Font-Size="Large" ForeColor="LightGray" NavigateUrl="~/Search.aspx">Kayıt Ara</asp:HyperLink>
+                    </td>
+
+                    <td align="center">
+                        <asp:HyperLink ID="HyperLink5" runat="server" Font-Size="Large" ForeColor="LightGray" NavigateUrl="~/Show.aspx">Kayıt Göster</asp:HyperLink>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
